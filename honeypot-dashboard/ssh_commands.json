@@ -1,0 +1,359 @@
+[
+  {
+    "session": "bb26b98ba914",
+    "src_ip": "100.96.68.49",
+    "username": "honeypot",
+    "password": "honeypot123",
+    "login_timestamp": "2025-05-06T19:04:57.143976Z",
+    "commands": [
+      {
+        "command": "pwd",
+        "timestamp": "2025-05-06T19:05:47.211318Z"
+      },
+      {
+        "command": "ls",
+        "timestamp": "2025-05-06T19:05:51.622266Z"
+      },
+      {
+        "command": "ed ..",
+        "timestamp": "2025-05-06T19:05:57.332017Z"
+      },
+      {
+        "command": "cd ..",
+        "timestamp": "2025-05-06T19:06:02.179547Z"
+      },
+      {
+        "command": "cd .",
+        "timestamp": "2025-05-06T19:06:06.066076Z"
+      },
+      {
+        "command": "cd etc/",
+        "timestamp": "2025-05-06T19:06:18.356355Z"
+      },
+      {
+        "command": "cat passwd",
+        "timestamp": "2025-05-06T19:07:30.560547Z"
+      },
+      {
+        "command": "cat /etc/shadow",
+        "timestamp": "2025-05-06T19:09:03.077508Z"
+      }
+    ]
+  },
+  {
+    "session": "5a59e4c732d7",
+    "src_ip": "100.79.133.50",
+    "username": "root",
+    "password": "kali",
+    "login_timestamp": "2025-05-06T21:23:43.161524Z",
+    "commands": [
+      {
+        "command": "ls",
+        "timestamp": "2025-05-06T21:23:49.802174Z"
+      },
+      {
+        "command": "ls",
+        "timestamp": "2025-05-06T21:23:55.377143Z"
+      },
+      {
+        "command": "pwd",
+        "timestamp": "2025-05-06T21:25:39.938101Z"
+      },
+      {
+        "command": "cd ..",
+        "timestamp": "2025-05-06T21:25:48.251790Z"
+      }
+    ]
+  },
+  {
+    "session": "980c6776abbb",
+    "src_ip": "100.79.133.50",
+    "username": "root",
+    "password": "12345",
+    "login_timestamp": "2025-05-07T16:37:55.925927Z",
+    "commands": [
+      {
+        "command": "id",
+        "timestamp": "2025-05-07T16:37:56.111611Z"
+      },
+      {
+        "command": "help; ?",
+        "timestamp": "2025-05-07T16:37:56.281711Z"
+      },
+      {
+        "command": "id",
+        "timestamp": "2025-05-07T16:37:56.595808Z"
+      },
+      {
+        "command": "help; ?",
+        "timestamp": "2025-05-07T16:37:56.756955Z"
+      }
+    ]
+  },
+  {
+    "session": "be056977e863",
+    "src_ip": "100.79.133.50",
+    "username": "honeypot",
+    "password": "",
+    "login_timestamp": "2025-05-07T16:44:17.994941Z",
+    "commands": [
+      {
+        "command": "pwd",
+        "timestamp": "2025-05-07T16:44:21.382910Z"
+      },
+      {
+        "command": "ls",
+        "timestamp": "2025-05-07T16:45:22.000069Z"
+      },
+      {
+        "command": "cd /",
+        "timestamp": "2025-05-07T16:45:38.313196Z"
+      },
+      {
+        "command": "cd usr",
+        "timestamp": "2025-05-07T16:45:52.545494Z"
+      },
+      {
+        "command": "cd games",
+        "timestamp": "2025-05-07T16:46:02.941510Z"
+      },
+      {
+        "command": "mousepad",
+        "timestamp": "2025-05-07T16:46:16.434166Z"
+      },
+      {
+        "command": "gedit",
+        "timestamp": "2025-05-07T16:46:20.332885Z"
+      },
+      {
+        "command": "nano hello.txt",
+        "timestamp": "2025-05-07T16:46:31.520869Z"
+      },
+      {
+        "command": "shell",
+        "timestamp": "2025-05-07T16:46:40.233498Z"
+      },
+      {
+        "command": "bash",
+        "timestamp": "2025-05-07T16:46:48.252443Z"
+      },
+      {
+        "command": "cat why there are no ganes > hello.txt",
+        "timestamp": "2025-05-07T16:47:18.292508Z"
+      },
+      {
+        "command": "cat hello.txt",
+        "timestamp": "2025-05-07T16:47:44.693336Z"
+      }
+    ]
+  },
+  {
+    "session": "5c192a8b609e",
+    "src_ip": "100.122.167.90",
+    "username": "root",
+    "password": "bruh",
+    "login_timestamp": "2025-05-08T20:35:56.664939Z",
+    "commands": [
+      {
+        "command": "exit",
+        "timestamp": "2025-05-08T20:35:59.360511Z"
+      }
+    ]
+  },
+  {
+    "session": "7e2ee353b709",
+    "src_ip": "100.122.167.90",
+    "username": "honeypot",
+    "password": "root",
+    "login_timestamp": "2025-05-08T20:40:30.091000Z",
+    "commands": [
+      {
+        "command": "cd ..",
+        "timestamp": "2025-05-08T20:40:34.524322Z"
+      },
+      {
+        "command": "cd ..",
+        "timestamp": "2025-05-08T20:40:37.985618Z"
+      },
+      {
+        "command": "ls -l",
+        "timestamp": "2025-05-08T20:40:39.181528Z"
+      }
+    ]
+  },
+  {
+    "session": "898cd2883c78",
+    "src_ip": "100.122.167.90",
+    "username": "honeypot",
+    "password": "test",
+    "login_timestamp": "2025-05-08T21:36:42.762786Z",
+    "commands": [
+      {
+        "command": "exit",
+        "timestamp": "2025-05-08T21:36:59.139954Z"
+      }
+    ]
+  },
+  {
+    "session": "b5fe81bcf517",
+    "src_ip": "100.122.167.90",
+    "username": "root",
+    "password": "nigga",
+    "login_timestamp": "2025-05-08T21:42:39.459972Z",
+    "commands": [
+      {
+        "command": "exit",
+        "timestamp": "2025-05-08T21:42:50.253441Z"
+      }
+    ]
+  },
+  {
+    "session": "b8da303e7dde",
+    "src_ip": "100.122.167.90",
+    "username": "honeypot",
+    "password": "123",
+    "login_timestamp": "2025-05-08T22:22:35.588001Z",
+    "commands": [
+      {
+        "command": "ls",
+        "timestamp": "2025-05-08T22:22:45.589183Z"
+      },
+      {
+        "command": "cd ..",
+        "timestamp": "2025-05-08T22:22:46.990913Z"
+      },
+      {
+        "command": "ls",
+        "timestamp": "2025-05-08T22:22:48.287593Z"
+      },
+      {
+        "command": "cd phil/",
+        "timestamp": "2025-05-08T22:22:52.936526Z"
+      },
+      {
+        "command": "ls -l",
+        "timestamp": "2025-05-08T22:23:00.767766Z"
+      },
+      {
+        "command": "exit",
+        "timestamp": "2025-05-08T22:23:03.036448Z"
+      }
+    ]
+  },
+  {
+    "session": "7cd0536a79ba",
+    "src_ip": "100.118.231.96",
+    "username": "honeypot",
+    "password": "mazin",
+    "login_timestamp": "2025-05-10T17:25:14.646864Z",
+    "commands": [
+      {
+        "command": "exit",
+        "timestamp": "2025-05-10T17:25:27.722091Z"
+      }
+    ]
+  },
+  {
+    "session": "cf75ee6ae11b",
+    "src_ip": "100.118.231.96",
+    "username": "honeypot",
+    "password": "helloworld",
+    "login_timestamp": "2025-05-10T17:27:49.918985Z",
+    "commands": [
+      {
+        "command": "exit",
+        "timestamp": "2025-05-10T17:28:24.020643Z"
+      }
+    ]
+  },
+  {
+    "session": "205403640d83",
+    "src_ip": "100.122.167.90",
+    "username": "root",
+    "password": "m",
+    "login_timestamp": "2025-05-10T17:33:24.877980Z",
+    "commands": [
+      {
+        "command": "exit",
+        "timestamp": "2025-05-10T17:33:27.305474Z"
+      }
+    ]
+  },
+  {
+    "session": "3af1bcdcec8e",
+    "src_ip": "100.118.231.96",
+    "username": "honeypot",
+    "password": "ssdgfsgdf",
+    "login_timestamp": "2025-05-10T17:50:43.859698Z",
+    "commands": [
+      {
+        "command": "exit",
+        "timestamp": "2025-05-10T17:50:46.378179Z"
+      }
+    ]
+  },
+  {
+    "session": "8a57a7d66f8c",
+    "src_ip": "100.122.167.90",
+    "username": "honeypot",
+    "password": "root",
+    "login_timestamp": "2025-05-10T18:42:05.670847Z",
+    "commands": [
+      {
+        "command": "cd ..",
+        "timestamp": "2025-05-10T18:42:09.233176Z"
+      },
+      {
+        "command": "ls -l",
+        "timestamp": "2025-05-10T18:42:15.174902Z"
+      },
+      {
+        "command": "exit",
+        "timestamp": "2025-05-10T18:42:20.032668Z"
+      }
+    ]
+  },
+  {
+    "session": "8d4090eca55b",
+    "src_ip": "100.87.206.126",
+    "username": "honeypot",
+    "password": "nig",
+    "login_timestamp": "2025-05-14T10:39:22.803444Z",
+    "commands": [
+      {
+        "command": "exit",
+        "timestamp": "2025-05-14T10:39:47.547827Z"
+      }
+    ]
+  },
+  {
+    "session": "a4fbccc99b8c",
+    "src_ip": "100.87.206.126",
+    "username": "touzene",
+    "password": "123",
+    "login_timestamp": "2025-05-14T11:20:31.139642Z",
+    "commands": [
+      {
+        "command": "ls ../..",
+        "timestamp": "2025-05-14T11:20:37.029365Z"
+      },
+      {
+        "command": "exit",
+        "timestamp": "2025-05-14T11:20:39.839139Z"
+      }
+    ]
+  },
+  {
+    "session": "63ea12c40336",
+    "src_ip": "100.67.6.54",
+    "username": "root",
+    "password": "hello",
+    "login_timestamp": "2025-05-14T12:06:17.183007Z",
+    "commands": [
+      {
+        "command": "exit",
+        "timestamp": "2025-05-14T12:06:59.653956Z"
+      }
+    ]
+  }
+]
